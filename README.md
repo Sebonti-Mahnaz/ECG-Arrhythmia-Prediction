@@ -23,6 +23,15 @@ The project uses the MIT-BIH Arrhythmia Dataset.
 - The first 187 values represent ECG signal measurements
 - The final value represents the heartbeat class
 
+### Dataset Setup
+
+The CSV files are not stored in this repository because of their size. To run the project locally, download the MIT-BIH Arrhythmia Dataset separately and place these files in the same folder as `arrhythmia_prediction.py`:
+
+- `mitbih_train.csv`
+- `mitbih_test.csv`
+
+The Python script expects those exact filenames.
+
 ## Methodology
 
 1. Load and combine the training and test CSV datasets
@@ -94,8 +103,6 @@ The project report records an overall precision, recall, and F1 score of approxi
 ## Repository Files
 
 - `arrhythmia_prediction.py` — Python implementation
-- `mitbih_train.csv` — training dataset
-- `mitbih_test.csv` — test dataset
 - `Report.docx` — written project report
 - `Predicting-Arrhythmia.pptx` — project presentation
 
